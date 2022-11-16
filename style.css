@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  font-family: Roboto, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top, .footer {
+  background-color: #1F2937;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0 20vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text, .hero-subtext, .hero-sign-up {
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.img-placeholder {
+  background-color: rgb(93, 89, 89);
+  display: flex;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.content-info {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.frames {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.frame {
+  border: 2px solid #3882F6;
+  border-radius: 6px;
+  width: 180px;
+  height: 180px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 20vh;
+}
+
+.quote-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: 800;
+  padding-right: 20px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 30px 0;
+  margin: 20px 20vh;
+}
+
+.sign-up-bottom {
+  flex-grow: 0;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.hero-text {
+  color: #F9FAF8;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.header-links, .hero-subtext, .img-placeholder {
+  font-size: 18px; 
+  color: #E5E7EB;
+}
+
+ul {
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 700;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 6px;
+}

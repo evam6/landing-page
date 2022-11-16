@@ -2,52 +2,85 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-      <div class="logo">
-        Header Logo
+      <div class="container">
+        <!-- top section -->
+        <div class="top">
+          <div class="header">
+              <div class="header-logo">
+                Header Logo
+              </div>
+              <ul class="header-links">
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+              </ul>
+          </div>
+          <div class="hero">
+              <div class="hero-left">
+                  <h1 class="hero-text">This website is awesome</h1>
+                  <p class="hero-subtext">
+                    This website has some subtext that goes here under the main title. It's 
+                    smaller font and the color is lower contrast.
+                  </p>
+                  <button class="hero-sign-up">Sign up</button>
+              </div>
+              <div class="img-placeholder">
+                This is an image placeholder.
+              </div>
+          </div>
+        </div>
+        
+        <!-- content section -->
+        <h2 class="content-info">
+          Some random information.
+        </h2>
+        <div class="frames">
+          <div class="pair">
+            <div class="frame"></div>
+            <p class="frame-subtext">Some subtext</p>
+          </div>
+          <div class="pair">
+            <div class="frame"></div>
+            <p class="frame-subtext">Some subtext</p>
+          </div>
+          <div class="pair">
+            <div class="frame"></div>
+            <p class="frame-subtext">Some subtext</p>
+          </div>
+          <div class="pair">
+            <div class="frame"></div>
+            <p class="frame-subtext">Some subtext</p>
+          </div>
+        </div>
+
+        <!-- quote section -->
+        <div class="quote">
+          <p class="quote-text">This is an inspiring quote, or a testimonial from a customer.</p>
+          <p class="quote-author">-Author</p>  
+        </div>
+
+        <!-- sign-up section -->
+        <div class="sign-up">
+          <div class="sign-up-left">
+            <h3>Call to action! It's time!</h3>
+            <p class="sign-up-text">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="sign-up-bottom">Sign up</button>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+          Copyright &#169; The Odin Project 2021
+        </div>
       </div>
-      <ul class="links-right">
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
-      <!-- header section -->
-      <h1 class="hero-text">This website is awesome</h1>
-      <p class="hero-subtext">
-        This website has some subtext that goes here under the main title. It's 
-        smaller font and the color is lower contrast.
-      </p>
-      <button class="sign-up">Sign up</button>
-      <div class="img-placeholder">
-        This is an image placeholder.
-      </div>
-      <!-- content section -->
-      <h2 class="content-info">
-        Some random information.
-      </h2>
-      <div class="frame">One</div>
-      <p class="frame-subtext">Some subtext</p>
-      <div class="frame">Two</div>
-      <p class="frame-subtext">Some subtext</p>
-      <div class="frame">Three</div>
-      <p class="frame-subtext">Some subtext</p>
-      <div class="frame">Four</div>
-      <p class="frame-subtext">Some subtext</p>
-      <!-- quote section -->
-      <p class="quote">This is an inspiring quote, or a testimonial from a customer.</p>
-      <p class="quote-author">-Author</p>
-      <!-- sign-up section -->
-      <h3>Call to action! It's time!</h3>
-      <p class="sign-up-text">
-        Sign up for our product by clicking that button right over there!
-      </p>
-      <button class="sign-up">Sign up</button>
-      <!-- footer -->
-      <div class="footer">
-        Copyright &#169; The Odin Project 2021
-      </div>
+      
     </body>
 </html>
